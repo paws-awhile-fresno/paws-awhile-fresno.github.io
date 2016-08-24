@@ -161,6 +161,17 @@ footer {
     background-color: #f8f8f8;
 }
 
+
+footer.fixed-footer {
+    position: fixed;
+    height:140px;
+    background-color: #f8f8f8;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+}
+
 p.copyright {
     margin: 15px 0 0;
 }
