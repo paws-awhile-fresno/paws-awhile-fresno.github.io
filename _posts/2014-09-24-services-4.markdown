@@ -1,0 +1,9 @@
+---
+layout: default
+img: phones.png
+category: Services
+title: Bath and blow dry
+description: |
+---
+
+And then the bath and blow dry process.  Using a shampoo specifically for your pets needs, they receive a shampooing process that beats all others!  Massaging your pets body during the bathing process relaxes your pet.  Come on, who doesn't like a good massage!  I then follow up with a good blow dry and final brushing.  I make sure the pet is dry before letting them go home.
