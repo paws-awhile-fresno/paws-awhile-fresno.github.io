@@ -2,16 +2,17 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: https://http://pawsawhilefresno.com/
+url: https://rtlee9.github.io
+baseurl: /paws-awhile
 title: Paws Awhile
 email: kjue69@gmail.com
 author: Kelly Jue
 description: >
-  You can edit this line in _config.yml. It will appear in your document 
-  head meta (for Google search results) and in your feed.xml site 
+  You can edit this line in _config.yml. It will appear in your document
+  head meta (for Google search results) and in your feed.xml site
   description.
 copyright: 'Copyright 2013. Paws Awhile Grooming. All Rights Reserved.'
-credits: 
+credits:
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -31,10 +32,10 @@ social:
     url: mailto:ryantlee9@gmail.com
   - title: call
     fa: phone
-    url: 
+    url:
   - title: twitter
     fa: twitter
-    url: 
+    url:
   - title: instagram
     fa: instagram
-    url: 
+    url:
