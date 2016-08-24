@@ -2,7 +2,8 @@
 layout: default
 img: phones.png
 category: Services
-title: Google Web Fonts and<br>Font Awesome Icons
+title: Nail clipping
 description: |
 ---
-This template features the 'Lato' font, part of the [Google Web Font library](http://www.google.com/fonts), as well as [icons from Font Awesome](http://fontawesome.io).
+
+Next, comes the nail clipping.  Using advanced nail clippers, your pets nails will be clipped as short as possible without hurting your pet.
