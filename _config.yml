@@ -20,21 +20,3 @@ credits:
 # Build settings
 markdown: kramdown
 permalink: pretty
-
-# ----------------------- #
-#   3rd Party Settings    #
-# ----------------------- #
-
-social:
-  - title: email
-    fa: envelope
-    url: mailto:ryantlee9@gmail.com
-  - title: call
-    fa: phone
-    url:
-  - title: twitter
-    fa: twitter
-    url:
-  - title: instagram
-    fa: instagram
-    url:

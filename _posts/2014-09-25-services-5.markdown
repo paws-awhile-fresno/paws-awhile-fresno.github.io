@@ -1,9 +1,9 @@
 ---
 layout: default
-img: phones.png
+img: 583831b354cc296cb9556f5f1e6ba819.jpeg
 category: Services
 title: Haircut or trim
 description: |
 ---
 
-If a haircut or trim is what you are wanting, I do that also!  All the styles of all the breeds, I can do them for you.   I also groom large dogs and cats!
+If a haircut or trim is what you are wanting, I do that also! All the styles of all the breeds, I can do them for you. I also groom large dogs and cats!

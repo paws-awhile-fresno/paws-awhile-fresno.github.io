@@ -1,9 +1,9 @@
 ---
 layout: default
-img: phones.png
+img: 95aa6e65a693e46142b3aab08e954a2e.png
 category: Services
 title: Nail clipping
 description: |
 ---
 
-Next, comes the nail clipping.  Using advanced nail clippers, your pets nails will be clipped as short as possible without hurting your pet.
+Next, comes the nail clipping. Using advanced nail clippers, your pets nails will be clipped as short as possible without hurting your pet.
