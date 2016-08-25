@@ -21,6 +21,10 @@ h6 {
     font-weight: 700;
 }
 
+a:hover,
+a:focus {
+  color: #0085a1;
+}
 .lead {
     font-size: 18px;
     font-weight: 400;
@@ -31,7 +35,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/services/3190b1325ef8cc4e89d0661b7a77776b.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -112,7 +116,7 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(../img/services/95aa6e65a693e46142b3aab08e954a2e.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -174,4 +178,15 @@ footer.fixed-footer {
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+#section0:hover,
+#section0:focus,
+#section1:hover,
+#section1:focus,
+#section2:hover,
+#section2:focus,
+#section3:hover,
+#section3:focus {
+  color: #0085a1;
 }
