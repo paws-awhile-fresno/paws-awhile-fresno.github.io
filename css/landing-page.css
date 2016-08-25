@@ -181,12 +181,8 @@ p.copyright {
 }
 
 #section0:hover,
-#section0:focus,
 #section1:hover,
-#section1:focus,
 #section2:hover,
-#section2:focus,
-#section3:hover,
-#section3:focus {
+#section3:hover {
   color: #0085a1;
 }
