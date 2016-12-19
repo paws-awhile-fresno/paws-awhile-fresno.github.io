@@ -1,6 +1,6 @@
 ---
 layout: default
-img: 583831b354cc296cb9556f5f1e6ba819.jpeg
+img: jetta.jpg
 category: Services
 title: Haircut or trim
 description: |
