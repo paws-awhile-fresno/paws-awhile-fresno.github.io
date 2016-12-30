@@ -114,10 +114,14 @@ a:focus {
 }
 
 .banner {
-    padding: 100px 0;
     color: #f8f8f8;
     background: url(../img/services/clip.png) no-repeat center center;
     background-size: cover;
+}
+
+.banner .container {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .banner h2 {
@@ -128,6 +132,14 @@ a:focus {
 
 .banner ul {
     margin-bottom: 0;
+}
+
+.overlay {
+  background-size: cover;
+}
+
+.banner .overlay {
+  background: rgba(150,130,110,0.75);
 }
 
 .banner-social-buttons {
