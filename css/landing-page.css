@@ -79,10 +79,6 @@ a:focus {
     ul.intro-social-buttons > li:last-child {
         margin-bottom: 0;
     }
-
-    .intro-divider {
-        width: 100%;
-    }
 }
 
 .network-name {
