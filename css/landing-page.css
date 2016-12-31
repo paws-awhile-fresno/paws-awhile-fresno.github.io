@@ -141,6 +141,10 @@ a:focus {
 .banner .overlay {
   background: rgba(150,130,110,0.75);
 }
+.intro-header .overlay {
+  background: rgba(66,139,202,0.7);
+  margin-bottom: -50px;
+}
 
 .banner-social-buttons {
     float: right;
