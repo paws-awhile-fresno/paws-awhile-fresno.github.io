@@ -56,6 +56,11 @@ a:focus {
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
+@media(max-width:450px) {
+    .intro-divider {
+        width: 200px;
+    }
+}
 
 .intro-message > h3 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
