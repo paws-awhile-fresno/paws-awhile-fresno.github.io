@@ -182,7 +182,6 @@ footer {
   background-color: #f8f8f8;
 }
 
-
 footer.fixed-footer {
   position: fixed;
   height:140px;
@@ -238,4 +237,20 @@ i.fa-paw.footprint.active  {
    .footprint-container {
      display: none;
   }
+}
+nav.navbar {
+  border-bottom-color: #F05D0E;
+}
+hr.separator {
+  border-color: #F05D0E;
+  border-top-width: 2px;
+  width: 40%;
+}
+hr.intro-divider {
+  border-color: #F05D0E;
+  border-top-width: 0px;
+}
+hr.section-heading-spacer {
+  border-color: #F05D0E;
+  border-top-width: 2px;
 }
