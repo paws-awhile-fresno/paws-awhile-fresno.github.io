@@ -212,3 +212,30 @@ p.copyright {
   margin: 20px 0 10px 0;
   border-radius: 25px;
 }
+
+.footprint-container {
+  padding-top: 50px;
+}
+.fp-container {
+  padding-top: 20px;
+}
+i.fa-paw.footprint  {
+  font-size: 16px;
+  visibility: hidden;
+}
+.footprint-right {
+  padding-left: 20px;
+}
+@media(max-width:450px) {
+i.fa-paw.footprint  {
+  font-size: 14px;
+}
+}
+i.fa-paw.footprint.active  {
+  visibility: visible;
+}
+@media(max-width:767px) {
+   .footprint-container {
+     display: none;
+  }
+}

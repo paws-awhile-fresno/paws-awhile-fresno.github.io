@@ -1,10 +1,17 @@
 <!-- About Section -->
 <section id="about" class="container content-section text-center">
   <div class="row">
-    <div class="col-sm-1">
-      <i class="fa fa-paw" aria-hidden="true"></i>
+    <div class="col-xs-1 footprint-container">
+      <div class="fp-container"><i id="fp-1" class="fa fa-paw fa-rotate-180 footprint" aria-hidden="true"></i></div>
+      <div class="fp-container"><i id="fp-2" class="fa fa-paw fa-rotate-180 footprint footprint-right" aria-hidden="true"></i></div>
+      <div class="fp-container"><i id="fp-3" class="fa fa-paw fa-rotate-180 footprint" aria-hidden="true"></i></div>
+      <div class="fp-container"><i id="fp-4" class="fa fa-paw fa-rotate-180 footprint footprint-right" aria-hidden="true"></i></div>
+      <div class="fp-container"><i id="fp-5" class="fa fa-paw fa-rotate-180 footprint" aria-hidden="true"></i></div>
+      <div class="fp-container"><i id="fp-6" class="fa fa-paw fa-rotate-180 footprint footprint-right" aria-hidden="true"></i></div>
+      <div class="fp-container"><i id="fp-7" class="fa fa-paw fa-rotate-180 footprint" aria-hidden="true"></i></div>
+      <div class="fp-container"><i id="fp-8" class="fa fa-paw fa-rotate-180 footprint footprint-right" aria-hidden="true"></i></div>
     </div>
-    <div class="col-lg-8 col-lg-offset-1">
+    <div class="col-md-8 col-md-offset-1">
       <br/><br/>
       <h2>More Wag, Less Bark</h2>
       <br/>
@@ -21,3 +28,39 @@
     </div>
   </div>
 </section>
+<script>
+// init controller
+var controller = new ScrollMagic.Controller({globalSceneOptions: {duration: 400}});
+
+new ScrollMagic.Scene({triggerElement: "#about"})
+.setClassToggle("#fp-1", "active") // add class toggle
+.addTo(controller);
+
+new ScrollMagic.Scene({triggerElement: "#fp-1"})
+.setClassToggle("#fp-2", "active") // add class toggle
+.addTo(controller);
+
+new ScrollMagic.Scene({triggerElement: "#fp-2"})
+.setClassToggle("#fp-3", "active") // add class toggle
+.addTo(controller);
+
+new ScrollMagic.Scene({triggerElement: "#fp-3"})
+.setClassToggle("#fp-4", "active") // add class toggle
+.addTo(controller);
+
+new ScrollMagic.Scene({triggerElement: "#fp-4"})
+.setClassToggle("#fp-5", "active") // add class toggle
+.addTo(controller);
+
+new ScrollMagic.Scene({triggerElement: "#fp-5"})
+.setClassToggle("#fp-6", "active") // add class toggle
+.addTo(controller);
+
+new ScrollMagic.Scene({triggerElement: "#fp-6"})
+.setClassToggle("#fp-7", "active") // add class toggle
+.addTo(controller);
+
+new ScrollMagic.Scene({triggerElement: "#fp-7"})
+.setClassToggle("#fp-8", "active") // add class toggle
+.addTo(controller);
+</script>

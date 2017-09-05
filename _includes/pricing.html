@@ -1,6 +1,14 @@
 <!-- About Section -->
 <section id="pricing" class="container content-section text-center">
   <div class="row">
+    <div class="col-xs-1 footprint-container">
+      <div class="fp-container"><i id="fp-9" class="fa fa-paw fa-rotate-180 footprint" aria-hidden="true"></i></div>
+      <div class="fp-container"><i id="fp-10" class="fa fa-paw fa-rotate-180 footprint footprint-right" aria-hidden="true"></i></div>
+      <div class="fp-container"><i id="fp-11" class="fa fa-paw fa-rotate-180 footprint" aria-hidden="true"></i></div>
+      <div class="fp-container"><i id="fp-12" class="fa fa-paw fa-rotate-180 footprint footprint-right" aria-hidden="true"></i></div>
+      <div class="fp-container"><i id="fp-13" class="fa fa-paw fa-rotate-180 footprint" aria-hidden="true"></i></div>
+      <div class="fp-container"><i id="fp-14" class="fa fa-paw fa-rotate-180 footprint footprint-right" aria-hidden="true"></i></div>
+    </div>
     <div class="col-lg-8 col-lg-offset-2">
       <br/><br/>
       <h2>Pricing</h2>
@@ -14,3 +22,27 @@
     </div>
   </div>
 </section>
+<script>
+// init controller
+var controller = new ScrollMagic.Controller({globalSceneOptions: {duration: 400}});
+
+new ScrollMagic.Scene({triggerElement: "#pricing"})
+.setClassToggle("#fp-9", "active") // add class toggle
+.addTo(controller);
+
+new ScrollMagic.Scene({triggerElement: "#fp-9"})
+.setClassToggle("#fp-10", "active") // add class toggle
+.addTo(controller);
+
+new ScrollMagic.Scene({triggerElement: "#fp-10"})
+.setClassToggle("#fp-11", "active") // add class toggle
+.addTo(controller);
+
+new ScrollMagic.Scene({triggerElement: "#fp-11"})
+.setClassToggle("#fp-12", "active") // add class toggle
+.addTo(controller);
+
+new ScrollMagic.Scene({triggerElement: "#fp-12"})
+.setClassToggle("#fp-13", "active") // add class toggle
+.addTo(controller);
+</script>
