@@ -18,7 +18,7 @@ h4,
 h5,
 h6 {
   font-family: "Nunito","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 700;
+  color: #36454f;
 }
 
 a:hover,
@@ -266,4 +266,10 @@ footer > div.container > div.row > div a {
 }
 footer > div.container > div.row > div p {
   font-size: 13px;
+}
+div.intro-message h1,
+div.intro-message h2,
+section#contact h2
+{
+  color: white;
 }
