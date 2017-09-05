@@ -221,6 +221,7 @@ p.copyright {
 i.fa-paw.footprint  {
   font-size: 16px;
   visibility: hidden;
+  color: #777;
 }
 .footprint-right {
   padding-left: 20px;
