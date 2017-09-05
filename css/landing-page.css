@@ -255,3 +255,15 @@ hr.section-heading-spacer {
   border-color: #F05D0E;
   border-top-width: 2px;
 }
+nav.navbar-default > div.container li a {
+  font-size: 16px;
+}
+nav.navbar-default > div.container .navbar-brand {
+  font-size: 20px;
+}
+footer > div.container > div.row > div a {
+  font-size: 16px;
+}
+footer > div.container > div.row > div p {
+  font-size: 13px;
+}
