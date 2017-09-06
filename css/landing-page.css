@@ -273,3 +273,10 @@ section#contact h2
 {
   color: white;
 }
+section#contact div#method {
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+section#contact div#method input{
+  margin-right: 5px;
+}

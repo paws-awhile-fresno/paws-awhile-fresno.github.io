@@ -6,10 +6,10 @@
       <div class="container">
         
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-5">
             <h2>Contact</h2>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-7 col-md-10">
             <ul class="list-inline banner-social-buttons">
               {% for social in site.social %}
               <li>
@@ -19,11 +19,16 @@
               <form action="https://formspree.io/5599785052@tmomail.net" method="POST" class="form" id="contact-form">
                 <div class="lead">Please make an appointment, give me a call at (559) 978-5052, or send me a message using the form below:</div>
                 <div class="row">
-                  <div class="col-xs-6">
+                  <div class="col-sm-5 col-xs-12">
+                    <input type="text" name="name" class="form-control input-lg" placeholder="Your name" title="Name">
+                  </div>
+                  <div class="col-sm-4 col-xs-12">
                     <input type="tel" name="phone" class="form-control input-lg" placeholder="Your phone number" title="Phone">
                   </div>
-                  <div class="col-xs-6">
-                    <input type="text" name="name" class="form-control input-lg" placeholder="Your name" title="Name">
+                  <div class="col-sm-3 col-xs-12" id="method">
+                    <input type="checkbox" name="method" value="text">Please text me.
+                    <br/>
+                    <input type="checkbox" name="method" value="call">Please call me.
                   </div>
                 </div>
                 <input type="hidden" name="_subject" value="New Paws Awhile inquiry">
