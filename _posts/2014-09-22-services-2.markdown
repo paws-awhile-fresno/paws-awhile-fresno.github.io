@@ -4,6 +4,7 @@ img: brush-soft.jpg
 category: Services
 title: Brushing
 description: |
+sitemap: false
 ---
 
 I start by giving your pet a complete and thorough brushing. This serves a couple of purposes; it first releases any loose and dead hair from your pets body. Second, it massages the pet and stimulates the hair follicles. It also calms the pet down.
