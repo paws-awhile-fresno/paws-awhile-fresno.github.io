@@ -4,5 +4,6 @@ img: header-cropped.jpg
 category: Services
 title: Making an appointment
 description: |
+sitemap: false
 ---
 Making an appointment is easy!! Call me up, I bring my trailer right to your home.  You and your pet never have to leave the house!
