@@ -1,0 +1,38 @@
+pricingDict = {
+    "cl": {
+        "shave": "70",
+        "nails": "25",
+        "sentry": "10",
+        "bath": "75"
+    },
+    "d75": {
+        "shave": "25",
+        "nails": "25",
+        "sentry": "10",
+        "bath": "60"
+    },
+    "d25": {
+        "shave": "25",
+        "nails": "25",
+        "sentry": "10",
+        "bath": "40"
+    },
+    "cs": {
+        "shave": "70",
+        "nails": "25",
+        "sentry": "10",
+        "bath": "50"
+    },
+    "d50": {
+        "shave": "25",
+        "nails": "25",
+        "sentry": "10",
+        "bath": "45"
+    },
+    "d0": {
+        "shave": "25",
+        "nails": "25",
+        "sentry": "10",
+        "bath": "35"
+    }
+}
