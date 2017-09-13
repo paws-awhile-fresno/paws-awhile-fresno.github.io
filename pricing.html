@@ -88,6 +88,6 @@ function calculateTotal()
   }
 
   //display the result
-  document.getElementById('totalPrice').innerHTML = "Preliminary price estimate: $" + price;
+  document.getElementById('totalPrice').innerHTML = "Preliminary price estimate: $" + Math.max(50, price);
 }
 </script>
