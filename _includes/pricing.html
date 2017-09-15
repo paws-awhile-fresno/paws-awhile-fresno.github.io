@@ -16,12 +16,58 @@
       <div class="lead">
         Pricing is based on the type and size of your pet. Please find pricing details by clicking the button below.
       </div>
-      <a href="/pricing">
-        <button class="btn btn-lg btn-primary">View pricing</button>
-      </a>
+      <form action="" class="form" id="pricing" onsubmit="return false;">
+        <fieldset>
+          
+          <h4>Pet type:</h4>
+          <select id="type" onchange="calculateTotal()">
+            <option value="d0">dogs < 25 lbs</option>
+            <option value="d25">dogs 25-50 lbs</option>
+            <option value="d50">dogs 50-75 lbs</option>
+            <option value="d75">dogs > 75 lbs</option>
+            <option value="cs">shorthair cats</option>
+            <option value="cl">longhair cats</option>
+          </select>
+          <br/>
+          <p></p>
+          
+          <h4>Services</h4>
+          <p></p>
+          
+          <input type="checkbox" id="bath" onclick="calculateTotal()" />
+          <label class="inlinelabel">
+            Bath, brush and blowdry
+          </label>
+          <p></p>
+          
+          <input type="checkbox" id="shave" onclick="calculateTotal()" />
+          <label class="inlinelabel">
+            Full shave / haircut
+          </label>
+          <p></p>
+          
+          <input type="checkbox" id="nails" onclick="calculateTotal()" />
+          <label class="inlinelabel">
+            Nail trim
+          </label>
+          <p></p>
+          
+          <input type="checkbox" id="sentry" onclick="calculateTotal()" />
+          <label class="inlinelabel">
+            Sentry® flea & tick application
+          </label>
+          <p></p>
+          
+          <div id="totalPrice"></div>
+          
+        </fieldset>
+      </form>
+      <p><i>The estimates provided above are not final. Please call (559) 978-5052 for a final quote -- every pet is unique, and actual pricing may vary.</i></p>
     </div>
   </div>
 </section>
+<script type="text/javascript" src="pricingDict.json"></script>
+<script src="/js/priceCalculator.js"></script>
 <script>
 // init controller
 var controller = new ScrollMagic.Controller({globalSceneOptions: {duration: 400}});
