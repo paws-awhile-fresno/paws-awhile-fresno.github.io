@@ -18,7 +18,7 @@
         <h2>Pricing</h2>
         <hr class="separator"></hr>
         <div class="lead">
-          Pricing is based on the type and size of your pet. Please find pricing details by clicking the button below.
+          Pricing is based on the type and size of your pet. Please use the form below to get an initial price estimate.
         </div>
       </div>
       <div class="row">
@@ -26,14 +26,14 @@
           <form action="" class="form" id="pricing" onsubmit="return false;">
             <fieldset>
               
-              <h4>Pet type:</h4>
+              <h4 style="margin-top:10px;">Pet type:</h4>
               <select id="type" onchange="calculateTotal()">
-                <option value="d0">dogs < 25 lbs</option>
-                <option value="d25">dogs 25-50 lbs</option>
-                <option value="d50">dogs 50-75 lbs</option>
-                <option value="d75">dogs > 75 lbs</option>
-                <option value="cs">shorthair cats</option>
-                <option value="cl">longhair cats</option>
+                <option value="d0">dog < 25 lbs</option>
+                <option value="d25">dog 25-50 lbs</option>
+                <option value="d50">dog 50-75 lbs</option>
+                <option value="d75">dog > 75 lbs</option>
+                <option value="cs">shorthair cat</option>
+                <option value="cl">longhair cat</option>
               </select>
               
               <h4>Services</h4>
@@ -65,16 +65,13 @@
                   Sentry® flea & tick application
                 </label>
               </div>
-              
-              <div id="totalPrice"></div>
-              
             </fieldset>
           </form>
         </div>
       </div>
+      <div class="lead" id="totalPrice"></div>
     </div>
   </div>
-  <p><i>The estimates provided above are not final. Please call (559) 978-5052 for a final quote -- every pet is unique, and actual pricing may vary.</i></p>
 </section>
 <script type="text/javascript" src="pricingDict.json"></script>
 <script src="/js/priceCalculator.js"></script>

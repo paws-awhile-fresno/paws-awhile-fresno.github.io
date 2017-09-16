@@ -21,5 +21,5 @@ function calculateTotal()
   }
 
   //display the result
-  document.getElementById('totalPrice').innerHTML = "Preliminary price estimate: $" + Math.max(50, price);
+  document.getElementById('totalPrice').innerHTML = "Your initial price estimate is $" + Math.max(50, price) + ". Kindly note that this estimate is not final. Please call (559) 978-5052 for a final quote -- every pet is unique, and actual pricing may vary.";
 }
