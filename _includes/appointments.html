@@ -20,7 +20,7 @@
                 <div class="lead">Making an appointment is easy! To make an appointment please give me a call at (559) 978-5052 or send me a message using the form below:</div>
                 <div class="row">
                   <div class="col-sm-5 col-xs-12">
-                    <input type="text" name="name" class="form-control input-lg" placeholder="Your name" title="Name">
+                    <input type="text" id='user-name' name="name" class="form-control input-lg" placeholder="Your name" title="Name">
                   </div>
                   <div class="col-sm-4 col-xs-12">
                     <input type="tel" name="phone" class="form-control input-lg" placeholder="Your phone number" title="Phone">
@@ -32,7 +32,7 @@
                   </div>
                 </div>
                 <input type="hidden" name="_subject" value="New Paws Awhile inquiry">
-                <textarea type="text" name="content" class="form-control input-lg" placeholder="Your message" title="Message" required="required" rows="3"></textarea>
+                <textarea type="text" id="message-box" name="content" class="form-control input-lg" placeholder="Your message" title="Message" required="required" rows="3"></textarea>
                 <input type="text" name="_gotcha" style="display:none">
                 <input type="hidden" name="_next" value="./thanks" />
                 <button type="submit" class="btn btn-lg btn-primary">Submit</button>
