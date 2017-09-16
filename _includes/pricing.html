@@ -9,62 +9,68 @@
       <div class="fp-container"><i id="fp-13" class="fa fa-paw fa-rotate-180 footprint" aria-hidden="true"></i></div>
       <div class="fp-container"><i id="fp-14" class="fa fa-paw fa-rotate-180 footprint footprint-right" aria-hidden="true"></i></div>
     </div>
-    <div class="col-lg-8 col-lg-offset-1">
-      <br/><br/>
-      <h2>Pricing</h2>
-      <hr class="separator"></hr>
-      <div class="lead">
-        Pricing is based on the type and size of your pet. Please find pricing details by clicking the button below.
+    <div class="col-md-8 col-md-offset-1 col-xs-10 col-xs-offset-1">
+      <div class="row">
+        <h2>Pricing</h2>
+        <hr class="separator"></hr>
+        <div class="lead">
+          Pricing is based on the type and size of your pet. Please find pricing details by clicking the button below.
+        </div>
       </div>
-      <form action="" class="form" id="pricing" onsubmit="return false;">
-        <fieldset>
-          
-          <h4>Pet type:</h4>
-          <select id="type" onchange="calculateTotal()">
-            <option value="d0">dogs < 25 lbs</option>
-            <option value="d25">dogs 25-50 lbs</option>
-            <option value="d50">dogs 50-75 lbs</option>
-            <option value="d75">dogs > 75 lbs</option>
-            <option value="cs">shorthair cats</option>
-            <option value="cl">longhair cats</option>
-          </select>
-          <br/>
-          <p></p>
-          
-          <h4>Services</h4>
-          <p></p>
-          
-          <input type="checkbox" id="bath" onclick="calculateTotal()" />
-          <label class="inlinelabel">
-            Bath, brush and blowdry
-          </label>
-          <p></p>
-          
-          <input type="checkbox" id="shave" onclick="calculateTotal()" />
-          <label class="inlinelabel">
-            Full shave / haircut
-          </label>
-          <p></p>
-          
-          <input type="checkbox" id="nails" onclick="calculateTotal()" />
-          <label class="inlinelabel">
-            Nail trim
-          </label>
-          <p></p>
-          
-          <input type="checkbox" id="sentry" onclick="calculateTotal()" />
-          <label class="inlinelabel">
-            Sentry® flea & tick application
-          </label>
-          <p></p>
-          
-          <div id="totalPrice"></div>
-          
-        </fieldset>
-      </form>
-      <p><i>The estimates provided above are not final. Please call (559) 978-5052 for a final quote -- every pet is unique, and actual pricing may vary.</i></p>
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-4">
+          <form action="" class="form" id="pricing" onsubmit="return false;">
+            <fieldset>
+              
+              <h4>Pet type:</h4>
+              <select id="type" onchange="calculateTotal()">
+                <option value="d0">dogs < 25 lbs</option>
+                <option value="d25">dogs 25-50 lbs</option>
+                <option value="d50">dogs 50-75 lbs</option>
+                <option value="d75">dogs > 75 lbs</option>
+                <option value="cs">shorthair cats</option>
+                <option value="cl">longhair cats</option>
+              </select>
+              
+              <h4>Services</h4>
+              
+              <div class="service-pricing-box">
+                <input type="checkbox" id="bath" onclick="calculateTotal()" />
+                <label class="inlinelabel">
+                  Bath, brush and blowdry
+                </label>
+              </div>
+              
+              <div class="service-pricing-box">
+                <input type="checkbox" id="shave" onclick="calculateTotal()" />
+                <label class="inlinelabel">
+                  Full shave / haircut
+                </label>
+              </div>
+              
+              <div class="service-pricing-box">
+                <input type="checkbox" id="nails" onclick="calculateTotal()" />
+                <label class="inlinelabel">
+                  Nail trim
+                </label>
+              </div>
+              
+              <div class="service-pricing-box">
+                <input type="checkbox" id="sentry" onclick="calculateTotal()" />
+                <label class="inlinelabel">
+                  Sentry® flea & tick application
+                </label>
+              </div>
+              
+              <div id="totalPrice"></div>
+              
+            </fieldset>
+          </form>
+        </div>
+      </div>
     </div>
   </div>
+  <p><i>The estimates provided above are not final. Please call (559) 978-5052 for a final quote -- every pet is unique, and actual pricing may vary.</i></p>
 </section>
 <script type="text/javascript" src="pricingDict.json"></script>
 <script src="/js/priceCalculator.js"></script>
