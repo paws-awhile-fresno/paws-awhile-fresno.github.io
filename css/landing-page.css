@@ -298,7 +298,7 @@ section#pricing h4 {
 section#pricing form {
   text-align: left;
   border: 1px solid rgba(66, 139, 202, 0.5);
-  border-radius: 25px;
+  border-radius: 20px;
 }
 
 section#pricing form > fieldset,
