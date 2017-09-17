@@ -306,3 +306,9 @@ section#pricing form > fieldset,
 section#pricing form > h3 {
   padding-left: 20px;
 }
+
+@media(max-width:386px) {
+  section#home div.intro-header div.intro-message h2 {
+    font-size: 28px;
+  }
+}
