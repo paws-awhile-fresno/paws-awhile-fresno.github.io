@@ -57,7 +57,7 @@ function calculateTotal()
   if (nServices > 0) {
       placeholderText += " for my " + petTypeDescriptions[type] + ".";
       document.getElementById('message-box').value = placeholderText;
-      document.getElementById('totalPrice').innerHTML = "Your initial price estimate is $" + Math.max(50, price) + ". Kindly note that this estimate is not final. Please call (559) 978-5052 for a final quote -- every pet is unique, and actual pricing may vary.";
+      document.getElementById('totalPrice').innerHTML = "Your initial price estimate is $" + Math.max(50, price) + ". Kindly note that this estimate is not final. Please call (559) 978-5052 for a final quote &mdash; every pet is unique, and actual pricing may vary.";
   }
   else {
       document.getElementById('message-box').value = "";
