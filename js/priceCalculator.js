@@ -30,8 +30,8 @@ function calculateTotal()
       "d25": "dog (25-50 lbs)",
       "d50": "dog (50-75 lbs)",
       "d75": "dog (> 75 lbs)",
-      "cs": "shorthair cat",
-      "cl": "longhair cat"
+      "cs": "shorthaired cat",
+      "cl": "longhaired cat"
   };
   var serviceDescriptions = {
       "shave": "shave",
