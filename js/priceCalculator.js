@@ -36,7 +36,7 @@ function calculateTotal()
   var serviceDescriptions = {
       "shave": "shave",
       "nails": "nail trim",
-      "sentry": "sentry application",
+      "sentry": "Sentry® flea & tick application",
       "bath": "bath (with brush and blowdry)"
   };
   var placeholderText = "Hi Kelly, I would like ";
