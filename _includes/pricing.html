@@ -1,27 +1,86 @@
 <!-- About Section -->
-<section id="pricing" class="container content-section text-center">
-  <div class="row">
-    <div class="col-xs-1 footprint-container">
-      <div class="fp-container"><i id="fp-9" class="fa fa-paw fa-rotate-180 footprint" aria-hidden="true"></i></div>
-      <div class="fp-container"><i id="fp-10" class="fa fa-paw fa-rotate-180 footprint footprint-right" aria-hidden="true"></i></div>
-      <div class="fp-container"><i id="fp-11" class="fa fa-paw fa-rotate-180 footprint" aria-hidden="true"></i></div>
-      <div class="fp-container"><i id="fp-12" class="fa fa-paw fa-rotate-180 footprint footprint-right" aria-hidden="true"></i></div>
-      <div class="fp-container"><i id="fp-13" class="fa fa-paw fa-rotate-180 footprint" aria-hidden="true"></i></div>
-      <div class="fp-container"><i id="fp-14" class="fa fa-paw fa-rotate-180 footprint footprint-right" aria-hidden="true"></i></div>
-    </div>
-    <div class="col-lg-8 col-lg-offset-1">
-      <br/><br/>
-      <h2>Pricing</h2>
-      <hr class="separator"></hr>
-      <div class="lead">
-        Pricing is based on the type and size of your pet. Please find pricing details by clicking the button below.
+<div class="content-alternate">
+  <section id="pricing" class="container content-section text-center">
+    <div class="row">
+      <div class="col-xs-1 footprint-container">
+        <div class="fp-container"><i id="fp-9" class="fa fa-paw fa-rotate-180 footprint" aria-hidden="true"></i></div>
+        <div class="fp-container"><i id="fp-10" class="fa fa-paw fa-rotate-180 footprint footprint-right" aria-hidden="true"></i></div>
+        <div class="fp-container"><i id="fp-11" class="fa fa-paw fa-rotate-180 footprint" aria-hidden="true"></i></div>
+        <div class="fp-container"><i id="fp-12" class="fa fa-paw fa-rotate-180 footprint footprint-right" aria-hidden="true"></i></div>
+        <div class="fp-container"><i id="fp-13" class="fa fa-paw fa-rotate-180 footprint" aria-hidden="true"></i></div>
+        <div class="fp-container"><i id="fp-14" class="fa fa-paw fa-rotate-180 footprint footprint-right" aria-hidden="true"></i></div>
+        <div class="fp-container"><i id="fp-19" class="fa fa-paw fa-rotate-180 footprint" aria-hidden="true"></i></div>
+        <div class="fp-container"><i id="fp-20" class="fa fa-paw fa-rotate-180 footprint footprint-right" aria-hidden="true"></i></div>
+        <div class="fp-container"><i id="fp-21" class="fa fa-paw fa-rotate-180 footprint" aria-hidden="true"></i></div>
+        <div class="fp-container"><i id="fp-22" class="fa fa-paw fa-rotate-180 footprint footprint-right" aria-hidden="true"></i></div>
+        <div class="fp-container"><i id="fp-23" class="fa fa-paw fa-rotate-180 footprint" aria-hidden="true"></i></div>
+        <div class="fp-container"><i id="fp-24" class="fa fa-paw fa-rotate-180 footprint footprint-right" aria-hidden="true"></i></div>
       </div>
-      <a href="/pricing">
-        <button class="btn btn-lg btn-primary">View pricing</button>
-      </a>
+      <div class="col-md-8 col-md-offset-1 col-xs-10 col-xs-offset-1">
+        <div class="row">
+          <h2>Pricing</h2>
+          <hr class="separator"></hr>
+          <div class="lead">
+            Pricing is based on the type and size of your pet. Please use the form below to get an initial price estimate.
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-sm-offset-3">
+            <form action="" class="form" id="pricing" onsubmit="return false;">
+              <h3>Price estimator</h3>
+              <hr>
+              <fieldset>
+                <h4>Pet type:</h4>
+                <select id="type" onchange="calculateTotal()">
+                  <option value="d0">dog < 25 lbs</option>
+                  <option value="d25">dog 25-50 lbs</option>
+                  <option value="d50">dog 50-75 lbs</option>
+                  <option value="d75">dog > 75 lbs</option>
+                  <option value="cs">shorthaired cat</option>
+                  <option value="cl">longhaired cat</option>
+                </select>
+                
+                <h4>Services</h4>
+                
+                <div class="service-pricing-box">
+                  <input type="checkbox" id="bath" onclick="calculateTotal()" />
+                  <label class="inlinelabel">
+                    Bath, brush and blowdry
+                  </label>
+                </div>
+                
+                <div class="service-pricing-box">
+                  <input type="checkbox" id="shave" onclick="calculateTotal()" />
+                  <label class="inlinelabel">
+                    Full shave / haircut
+                  </label>
+                </div>
+                
+                <div class="service-pricing-box">
+                  <input type="checkbox" id="nails" onclick="calculateTotal()" />
+                  <label class="inlinelabel">
+                    Nail trim
+                  </label>
+                </div>
+                
+                <div class="service-pricing-box">
+                  <input type="checkbox" id="sentry" onclick="calculateTotal()" />
+                  <label class="inlinelabel">
+                    Sentry® flea & tick application
+                  </label>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+        <div class="lead" id="totalPrice"></div>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
+</div>
+
+<script type="text/javascript" src="pricingDict.json"></script>
+<script src="/js/priceCalculator.js"></script>
 <script>
 // init controller
 var controller = new ScrollMagic.Controller({globalSceneOptions: {duration: 400}});
@@ -44,5 +103,37 @@ new ScrollMagic.Scene({triggerElement: "#fp-11"})
 
 new ScrollMagic.Scene({triggerElement: "#fp-12"})
 .setClassToggle("#fp-13", "active") // add class toggle
+.addTo(controller);
+
+new ScrollMagic.Scene({triggerElement: "#fp-13"})
+.setClassToggle("#fp-14", "active") // add class toggle
+.addTo(controller);
+
+new ScrollMagic.Scene({triggerElement: "#fp-14"})
+.setClassToggle("#fp-19", "active") // add class toggle
+.addTo(controller);
+
+new ScrollMagic.Scene({triggerElement: "#fp-19"})
+.setClassToggle("#fp-20", "active") // add class toggle
+.addTo(controller);
+
+new ScrollMagic.Scene({triggerElement: "#fp-20"})
+.setClassToggle("#fp-21", "active") // add class toggle
+.addTo(controller);
+
+new ScrollMagic.Scene({triggerElement: "#fp-21"})
+.setClassToggle("#fp-22", "active") // add class toggle
+.addTo(controller);
+
+new ScrollMagic.Scene({triggerElement: "#fp-22"})
+.setClassToggle("#fp-23", "active") // add class toggle
+.addTo(controller);
+
+new ScrollMagic.Scene({triggerElement: "#fp-23"})
+.setClassToggle("#fp-24", "active") // add class toggle
+.addTo(controller);
+
+new ScrollMagic.Scene({triggerElement: "#fp-24"})
+.setClassToggle("#fp-25", "active") // add class toggle
 .addTo(controller);
 </script>

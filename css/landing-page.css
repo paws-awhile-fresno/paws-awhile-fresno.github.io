@@ -140,7 +140,7 @@ a:focus {
 }
 
 .banner .overlay {
-  background: rgba(150,130,110,0.75);
+  background: rgba(250,150,90,0.8);
 }
 .intro-header .overlay {
   background: rgba(66,139,202,0.7);
@@ -203,13 +203,9 @@ p.copyright {
   color: #0085a1;
 }
 
-#pricing {
+section#pricing {
   margin-bottom: 50px;
-}
-
-#pricing .btn {
-  margin: 20px 0 10px 0;
-  border-radius: 25px;
+  padding-top: 40px;
 }
 
 .footprint-container {
@@ -285,5 +281,25 @@ div.content-alternate {
   background-color: #f8f8f8;
   border-top: 1px solid #e7e7e7;
   border-bottom: 1px solid #e7e7e7;
-  padding-bottom: 50px;
+}
+
+section#pricing form hr {
+  border-top: 1px solid rgba(66, 139, 202, 0.3);
+}
+
+section#pricing h4 {
+  margin: 25px 0 10px 0;
+}
+
+section#pricing form {
+  text-align: left;
+  margin-bottom: 40px;
+  border: 1px solid rgba(66, 139, 202, 0.5);
+  border-radius: 20px;
+  padding-bottom: 15px;
+}
+
+section#pricing form > fieldset,
+section#pricing form > h3 {
+  padding-left: 20px;
 }
