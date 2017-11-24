@@ -1,6 +1,6 @@
 ---
 layout: default
-img: bath-soft.jpg
+img: bath-cropped.jpg
 category: Services
 title: Bath and blow dry
 description: |

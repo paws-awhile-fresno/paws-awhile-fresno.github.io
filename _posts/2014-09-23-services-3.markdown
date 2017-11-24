@@ -1,6 +1,6 @@
 ---
 layout: default
-img: clip-crop.jpg
+img: clip-cropped.jpg
 category: Services
 title: Nail clipping
 description: |
